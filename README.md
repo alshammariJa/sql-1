@@ -1,8 +1,8 @@
-# sql-1
+ sql-1
 
 
 create database store;
-# Q1
+ Q1
 create table countries(
 
     code int primary key ,
@@ -42,7 +42,7 @@ create table products(
    status varchar(10) not null check ( status='valid' or status='expired' ) ,
    created_at datetime
 );
-# Q2
+
 
 insert into countries values (1,'ksa', 'asui');
  insert into  users values (1,'jamelah','jamelah@com','f','22/10/1919','2022-08-15 06:34:07',3248);
